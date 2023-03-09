@@ -1,79 +1,116 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>portfolio</title>
     <link rel="icon" href="images/favicon.ico">
-</head>
-<style>
-    body {margin-left: 30px;}
-    table {border: 1px solid green; width: 300px; margin-left: 30px;}
-    th {border: 1px solid green;}
-    td {border: 1px solid green;}
-    form {margin-left: 30px;}
-    input {border: 1px solid; box-shadow: 5px 5px 5px 5px #888888}
-</style>
-<body>
-    <div style="text-align: center; background-color: turquoise;">
-        <h1>My Portfolio</h1>
-        <image src="images/girl.png" width="200px"></image>
-        <h2>I am Hnin Thant Thant Aung</h2>
-        <h3>Frontend Developer</h3>
-    <hr >
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <div class="divone">
+      <img
+        src="images/butterfly.png"
+        alt=""
+        style="width: 35px; float: left; margin-left: 50px"
+      />
+      <h1>
+        <img src="images/butterfly.png" alt="" style="width: 25px" />I'm Hnin
+        Thant Thant Aung<img
+          src="images/butterfly.png"
+          alt=""
+          style="width: 25px"
+        />
+      </h1>
+      <h2>a student developer</h2>
+      <img
+        src="images/flower_butterfly.png"
+        alt=""
+        style="width: 100px; float: right; margin-right: 50px"
+      />
+      <img
+        src="images/bicycle.png"
+        style="width: 100px; float: left; margin-left: 50px"
+      />
+      <img src="images/tree_butterfly.png" style="width: 150px" />
     </div>
-
-    <table style="border-color:turquoise;">
-        <caption><b>Education</b></caption>
-        <tr>
-            <th>Date</th>
-            <th>Educational Qualification</th>
-        </tr>
-        <tr>
-            <td>2016</td>
-            <td>Passed matriculation examination</td>
-        </tr>
-    </table>
     <br>
-
-     <ul>
-        <li>Programming Basic with Python</li>
-        <li>Introduction to Web Development with HTML, CSS, Javascript, Bootstrap</li>
-        <li>Programming Basic with Java</li>
-     </ul>
-     <br>
-
-     <form>
+    <br>
+    <div class="divtwo">
+      <img
+        src="images/girl_green.png"
+        style="width: 150px; border-radius: 150px"
+      />
+      <h2>Hello!</h2>
+      <p>I am a student developer and trying hard to write better websites .</p>
+      <p>.....</p>
+    </div>
+    <div class="skill">
+      <h2>My Skills</h2>
+      <table>
+        <tr>
+          <th><img src="images/light.png" style="width: 100px" /></th>
+          <th>
+            <ul>
+              <li>Programming Basic with Python</li>
+              <li>
+                Introduction to Web Development with HTML, CSS, Javascript,
+                Bootstrap
+              </li>
+              <li>Programming Basic with Java</li>
+            </ul>
+          </th>
+        </tr>
+      </table>
+    </div>
+    <br /><br />
+    <div class="education">
+      <h2>Education</h2>
+      <table>
+        <tr>
+          <th>
+            <p>
+              I passed the matriculation exam in 2016 and attended University of
+              Technology.<br />
+              Now, I'm learning software engineering at MSI.
+            </p>
+          </th>
+          <th><img src="images/education.png" style="width: 100px" /></th>
+        </tr>
+      </table>
+    </div>
+    <div class="divform">
+      <form>
         <p>Contact me</p>
         <label for="name">Name :</label>
-        <input type="text" id="name" name="myname"/>
+        <input type="text" id="name" name="myname" />
 
         <label for="phno">Ph No :</label>
-        <input type="number" id="phno" name="phone"/>
-        <br>
-        <br>
+        <input type="number" id="phno" name="phone" />
 
         <label for="email">Email :</label>
-        <input  type="email" id="email" name="myemail"/>
+        <input type="email" id="email" name="myemail" />
 
         <label for="message">Message :</label>
-        <input type="text" id="message" name="message"/>
-     </form>
-     <br>
-     <div style="text-align: center;">
-        <a href="" target="blank">
-            <img src="images/facebook.png" alt="facebook" width="30px"/>
-        </a>
-        <a href="" target="blank">
-        <img src="images/instagram.png" alt="instagram" width="30px"/>
-        </a>
-        <a href="" target="blank">
-        <img src="images/linkin1.png" alt="linkin" width="30px"/>
-        </a>
-        <a href="" target="blank">
-        <img src="images/github.png" alt="Git Hub" width="30px"/>
-        </a>
+        <input type="text" id="message" name="message" />
+      </form>
+
+      <input type="submit" value="Send your Message" style="width: 200px; text-align: center;border: 1px solid white; border-radius: 5px; background-color: rgb(45, 157, 45);float: right;"/>
     </div>
-</body>
+  </body>
+  <footer>
+    <a href="" target="blank">
+      <img src="images/facebook.png" alt="facebook" width="30px" />
+    </a>
+    <a href="" target="blank">
+      <img src="images/instagram.png" alt="instagram" width="30px" />
+    </a>
+    <a href="" target="blank">
+      <img src="images/linkin1.png" alt="linkin" width="30px" />
+    </a>
+    <a href="" target="blank">
+      <img src="images/github.png" alt="Git Hub" width="30px" />
+    </a>
+  </footer>
 </html>
